@@ -1,11 +1,14 @@
-import Link from "next/link"
+import Link from "next/link" 
 import Card from "@/app/components/card/card"
-export default function about() {
+export default function About() {
  return (
-<div><h1>about Page</h1>
-   <Link href="/" >Home Page</Link>
+<div>
+ <Card   title="This is our about page" data="Users cantact us and know about us without anu hesitation" derscription="development"/>
+ <Card   title="Applying in computer science" data="string datatype"  derscription="development" showtag={true}/>
+<Link href="/">Home Page</Link>
 
- <Card title="how are you" derscription="I am fine"/>
+  <h1>about Page</h1>
+
  </div>
  )
 }
