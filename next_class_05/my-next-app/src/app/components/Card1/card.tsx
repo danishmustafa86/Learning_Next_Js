@@ -10,7 +10,7 @@ import { ButtonProp } from "@/app/types/type";
 //     showtag?:boolean
 //     howtag?:number
 // }
-export default function Card(props:ButtonProp) {
+export default function caaaard(props:ButtonProp) {
     let st:string="your answer is true and very good"
     let strin:string="your answer is quite correct and very complex"
 console.log(props.title,"props tittttle",props.data);
@@ -47,8 +47,9 @@ console.log(props.title,"props tittttle",props.data);
             <div>
                 {props.title}
                 {props.data}
-                {props.derscription}
-                {props.howtag ? <span>st</span> : <h1>strin</h1> }
+                {props.description}
+                {props.showtag  }
+                {props.howtag  ? <span>555</span> : <h1>786</h1> }
                 <div className="max-w-md mx-auto bg-white rounded-md overflow-hidden shadow-md hover:shadow-lg transition duration-300">
       <img className="w-full h-48 object-cover object-right" src={strin} alt="Card" />
       <div className="p-6">
