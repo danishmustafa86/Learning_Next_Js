@@ -8,7 +8,7 @@ import {Buttonprop} from "@/app/components/types/type"
  function Button(props:Buttonprop) {
   return (
     <>
-    <button  onClick={props.inClickHandler } >{props.title}  </button>
+    <button style={{ color: "white" ,backgroundColor:"black"}} onClick={props.inClickHandler } >{props.title}  </button>
     </>
   )
 }
